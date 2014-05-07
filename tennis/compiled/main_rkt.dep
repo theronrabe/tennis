@@ -1,0 +1,1 @@
+("6.0" ("fef04006c8c1a0e2c77ecc80450dba80d5b6a81d" . "d1ef1265c1d4c49e76ebc4feeb627fd011b88e68") (collects #"tennis" #"permutation" #"domainCases.rkt") (collects #"tennis" #"domain" #"domain.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"racket" #"main.rkt"))

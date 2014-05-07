@@ -1,0 +1,1 @@
+("6.0" ("d68b67a884a22e1fe5ebc779ba9a7025a8c09a85" . "88980e21b279ccbf12353d9a36807ba276d8b578") (collects #"tennis" #"permutation" #"permutation.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"racket" #"main.rkt"))

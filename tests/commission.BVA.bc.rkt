@@ -1,0 +1,17 @@
+#lang racket
+(require rackunit)
+(require "../examples/commission.rkt")
+
+(check-equal? (commission 38 44 99) (quote 742.0))
+(check-equal? (commission 38 44 98) (quote 738.0))
+(check-equal? (commission 38 44 50) (quote 546.0))
+(check-equal? (commission 38 44 1) (quote 350.0))
+(check-equal? (commission 38 44 0) (quote 346.0))
+(check-equal? (commission 38 88 50) (quote 766.0))
+(check-equal? (commission 38 87 50) (quote 761.0))
+(check-equal? (commission 38 1 50) (quote 331.0))
+(check-equal? (commission 38 0 50) (quote 326.0))
+(check-equal? (commission 77 44 50) (quote 819.0))
+(check-equal? (commission 76 44 50) (quote 812.0))
+(check-equal? (commission 1 44 50) (quote 287.0))
+(check-equal? (commission 0 44 50) (quote 280.0))
